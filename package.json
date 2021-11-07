@@ -1,34 +1,24 @@
 {
-	"name": "templatewebpack",
-	"version": "1.0.0",
-	"description": "",
-	"main": "src/index.js",
-	"scripts": {
-		"build": "rimraf public && webpack",
-		"dev": "nodemon src/index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CamiloG909/template.git"
-	},
-	"author": "Camilo Galindo R <cgalindorivera@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/CamiloG909/template/issues"
-	},
-	"homepage": "https://github.com/CamiloG909/template#readme",
-	"devDependencies": {
-		"@babel/core": "^7.15.0",
-		"@babel/preset-env": "^7.15.0",
-		"babel-loader": "^8.2.2",
-		"eslint": "^7.32.0",
-		"eslint-config-airbnb-base": "^14.2.1",
-		"eslint-config-prettier": "^8.3.0",
-		"eslint-plugin-import": "^2.24.0",
-		"nodemon": "^2.0.12",
-		"prettier": "^2.3.2",
-		"rimraf": "^3.0.2",
-		"webpack": "^5.51.1",
-		"webpack-cli": "^4.8.0"
-	}
+  "name": "api-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamiloG909/api-vanilla.git"
+  },
+  "keywords": [],
+  "author": "Camilo Galindo R <cgalindorivera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamiloG909/api-vanilla/issues"
+  },
+  "homepage": "https://github.com/CamiloG909/api-vanilla#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }

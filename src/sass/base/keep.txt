@@ -1,3 +1,0 @@
-global styles
-normalize
-variables media queries
